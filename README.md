@@ -10,7 +10,7 @@ Also, This is **volunteer** job and we do not promise everything and you have to
 
 OK, let's all. Enjoy yourself!
 
-##Quick start:##
+## Quick start:
 
 If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot. Please download those 2 files in the website:
 
@@ -22,20 +22,28 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
   https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.2.tar.gz
 
-##Install the script:##
 
-1. use ssh login into the hotspot.
-   the default user is root. default password: linxdot.
+## Install the script:
+
+   # Packaged after 1.0.2 images:
    
-2. use 'cd /etc' goto /etc directory.
-3. use 'git clone https://github.com/louischuang/linxdot-opensource.git' clone this repository in /etc directory.
-4. use 'cd linxdot-opensource' into /etc/linxdot-opensource directory.
-5. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
-6. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
+   If you have flash the linxdot image after version 1.0.2. This repository. Please use the follow the step to enable the features:
+   1. use '/etc/linxdot-opensource'
+   2. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
+   3. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
+
+   # Clone this repo and manually install:
+
+   1. use ssh login into the hotspot. The default user is root. default password: linxdot.
+   2. use 'cd /etc' goto /etc directory.
+   3. use 'git clone https://github.com/louischuang/linxdot-opensource.git' clone this repository in /etc directory.
+   4. use 'cd linxdot-opensource' into /etc/linxdot-opensource directory.
+   5. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
+   6. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
 
    After you completed everything, please reboot the hotspot.
 
-### HOW TO CHECK THE SERVICE
+## HOW TO CHECK THE SERVICE
 
 1. Please use the 'docker ps' to check the chirpstack service is ready.
 2. Please use the 'ps | grep lora_pkt_fwd' to see the lora_pkt_fwd is running in backend.

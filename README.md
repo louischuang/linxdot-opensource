@@ -18,9 +18,9 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
    
   https://linxdot-opensource.v7idea.com/sdk/Linxdot-Factory-tool-Installer.zip
   
-2. linxdot opensource image file(current version is 1.0.1): 
+2. linxdot opensource image file(current version is 1.0.2): 
 
-  https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.1.tar.gz
+  https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.2.tar.gz
 
 ##Install the script:##
 

@@ -22,3 +22,20 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
   https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.1.tar.gz
 
+##Install the script:##
+
+1. use ssh login into the hotspot.
+   the default user is root. default password: linxdot.
+   
+2. use 'cd /etc' goto /etc directory.
+3. use 'git clone https://github.com/louischuang/linxdot-opensource.git' clone this repository in /etc directory.
+4. use 'cd linxdot-opensource' into /etc/linxdot-opensource directory.
+5. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
+6. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
+
+   After you completed everything, please reboot the hotspot.
+
+### HOW TO CHECK THE SERVICE
+
+1. Please use the 'docker ps' to check the chirpstack service is ready.
+2. Please use the 'ps | grep lora_pkt_fwd' to see the lora_pkt_fwd is running in backend.

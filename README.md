@@ -28,7 +28,7 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
    # Packaged after 1.0.2 images:
    
    If you have flash the linxdot image after version 1.0.2. This repository. Please use the follow the step to enable the features:
-   1. use '/etc/linxdot-opensource'
+   1. use 'cd /etc/linxdot-opensource' into /etc/linxdot-opensouce directory.
    2. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
    3. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
 

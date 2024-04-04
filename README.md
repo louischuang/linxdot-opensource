@@ -15,7 +15,10 @@ OK, let's all. Enjoy yourself!
 If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot. Please download those 2 files in the website:
 
 1. Linxdot fladh image tool (only running in windows environment.)
+   
   https://linxdot-opensource.v7idea.com/sdk/Linxdot-Factory-tool-Installer.zip
+  
 2. linxdot opensource image file(current version is 1.0.1): 
+
   https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.1.tar.gz
 

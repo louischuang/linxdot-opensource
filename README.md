@@ -22,6 +22,10 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
   https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.2.tar.gz
 
+3. Plrase use the Factory tools to flash the image to V.1.0.2.
+4. Restart the linxdot hotspot. Use the ssh to connect the hoptspot.
+5. default ssh username: root, password: linxdot.
+6. please change the root password via the command -> passwd. 
 
 ## Install the script:
 

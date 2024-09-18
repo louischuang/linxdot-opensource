@@ -18,9 +18,9 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
    
   https://linxdot-opensource.v7idea.com/sdk/Linxdot-Factory-tool-Installer.zip
   
-2. linxdot opensource image file(current version is 1.0.2): 
+2. linxdot opensource image file(current version is 1.1.1): 
 
-  https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.0.2.tar.gz
+  https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.1.1.tar.gz
 
 3. Plrase use the Factory tools to flash the image to V.1.0.2.
 4. Restart the linxdot hotspot. Use the ssh to connect the hoptspot.
@@ -29,7 +29,7 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
 ## Install the script:
 
-   # Packaged after 1.0.2 images:
+   # Packaged after 1.1.1 images:
    
    If you have flash the linxdot image after version 1.0.2. This repository. Please use the follow the step to enable the features:
    1. use 'cd /etc/linxdot-opensource' into /etc/linxdot-opensouce directory.
@@ -51,3 +51,11 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
 1. Please use the 'docker ps' to check the chirpstack service is ready.
 2. Please use the 'ps | grep lora_pkt_fwd' to see the lora_pkt_fwd is running in backend.
+
+## Release Note:
+
+   # Version 1.1.1:
+
+   1. Add Luci Backend admin features to manage the hotspots.
+   2. Enable WIFI AP mode on the hotspot.
+   3. Some bugs fixed.

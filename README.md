@@ -23,20 +23,23 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
   https://linxdot-opensource.v7idea.com/images/linxdot-opensource-image-1.1.1.tar.gz
 
 3. Plrase use the Factory tools to flash the image to V.1.0.2.
-4. Restart the linxdot hotspot. Use the ssh to connect the hoptspot.
-5. default ssh username: root, password: linxdot.
-6. please change the root password via the command -> passwd. 
+4. Please plug in the ethernet cable to connect to internal network with DHCP features. Power on the hotspot and it would get the IP from the router.
+5. please use the browser to access the backend admin -> http://{the_hotspot_ip}/ . The default user is root and password is 'linxdot'.
+6. Please setup your hotpot, including change the password, WIFI setting, add an new account to access the backend admin (we suggest you disable root to access the backend admin), the name of hotspot, etc.
+7. Restart the linxdot hotspot. Use the ssh to connect the hoptspot.
+8. default ssh username: root, password: linxdot.
+9. please change the root password via the command -> passwd.
 
 ## Install the script:
 
-   # Packaged after 1.1.1 images:
+   ### Packaged after 1.1.1 images:
    
    If you have flash the linxdot image after version 1.0.2. This repository. Please use the follow the step to enable the features:
    1. use 'cd /etc/linxdot-opensource' into /etc/linxdot-opensouce directory.
    2. run the script './install-chirpstack.sh' to install chirpstack and enable the services.
    3. run the script './install-lora-pkd-fwd.sh' to install the lora_pkt_fwd run time service.
 
-   # Clone this repo and manually install:
+   ### Clone this repo and manually install:
 
    1. use ssh login into the hotspot. The default user is root. default password: linxdot.
    2. use 'cd /etc' goto /etc directory.
@@ -54,7 +57,7 @@ If you decide to flash your linxdot LD1001/1002 hotspots to a opensource hotspot
 
 ## Release Note:
 
-   # Version 1.1.1:
+   ### Version 1.1.1:
 
    1. Add Luci Backend admin features to manage the hotspots.
    2. Enable WIFI AP mode on the hotspot.
